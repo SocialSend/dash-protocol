@@ -1,20 +1,16 @@
-# dash-protocol
+# socialsend-protocol
 
-[![npm version](https://img.shields.io/npm/v/dash-protocol.svg)](https://www.npmjs.com/package/dash-protocol)
-[![Build Status](https://travis-ci.org/dashpay/dash-protocol.svg?branch=master)](https://travis-ci.org/dashpay/dash-protocol)
-[![Dependency Status](https://david-dm.org/dashpay/dash-protocol.svg)](https://david-dm.org/dashpay/dash-protocol)
-
-**Dash network protocol streams**
+**SocialSend network protocol streams**
 
 This module encodes and decodes low-level network protocol data using streams.
 
 ## Usage
 
-`npm install @dashevo/dash-protocol`
+`npm install SocialSend/socialsend-protocol`
 
 ```js
 const net = require('net');
-const bp = require('@dashevo/dash-protocol');
+const bp = require('socialsend-protocol');
 
 const decoder = bp.createDecodeStream();
 decoder.on('data', message => console.log);

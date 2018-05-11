@@ -1,20 +1,20 @@
 {
-  "name": "@dashevo/dash-protocol",
+  "name": "socialsend-protocol",
   "version": "3.0.1",
-  "description": "Dash network protocol streams",
+  "description": "SocialSend network protocol streams",
   "keywords": [
-    "dash",
+    "socialsend",
     "networking",
     "p2p",
     "network",
     "encode",
     "decode",
     "webcoin",
-    "dashevo"
+    "SocialSend"
   ],
-  "homepage": "https://github.com/dashevo/dash-protocol#readme",
+  "homepage": "https://github.com/SocialSend/socialsend-protocol#readme",
   "bugs": {
-    "url": "https://github.com/dashevo/dash-protocol/issues"
+    "url": "https://github.com/SocialSend/socialsend-protocol/issues"
   },
   "author": "Matt Bell <mappum@gmail.com>",
   "license": "MIT",
@@ -25,7 +25,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/dash-protocol.git"
+    "url": "https://github.com/SocialSend/socialsend-protocol.git"
   },
   "scripts": {
     "test": "standard && nyc tape test/*.js | faucet && nyc report",
